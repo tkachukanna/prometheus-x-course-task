@@ -4,7 +4,7 @@ import imageNotFound from "../../assets/images/imageNotFound.png";
 export const Book = ({ book }) => {
     return (
         <div className="book">
-            <Link to={`/books/${book.id}`} className="book__cover">
+            <Link to={`/prometheus-x-course-task/books/${book.id}`} className="book__cover">
                 <img
                     src={book.image === "" ? imageNotFound : book.image}
                     alt={book.title}
@@ -18,7 +18,7 @@ export const Book = ({ book }) => {
             <div className="book__author">{book.author}</div>
             <div className="book__actions">
                 <p className="book__price">{book.price}$</p>
-                <Link to={`/books/${book.id}`} className="book__view">View</Link>
+                <Link to={`/prometheus-x-course-task/books/${book.id}`} className="book__view">View</Link>
             </div>
         </div>
     );

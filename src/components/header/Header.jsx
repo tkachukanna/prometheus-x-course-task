@@ -1,6 +1,4 @@
-import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { LocalStorageService, LS_KEYS } from "../../services/localStorage";
 import "./header.css";
 import { Navbar } from "./Navbar";
 
@@ -10,9 +8,9 @@ export const Header = () => {
 
     return (
         <header className="header">
-            <Link to="/books" className="header__title">JS BAND STORE / Anna Tkachuk</Link>
+            <Link to="/prometheus-x-course-task/books" className="header__title">JS BAND STORE / Anna Tkachuk</Link>
             {
-                location.pathname !== '/' && <Navbar />
+                location.pathname !== '/prometheus-x-course-task/' && <Navbar />
             }
         </header>
     )

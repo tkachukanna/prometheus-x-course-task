@@ -9,7 +9,7 @@ export const CheckAutho = ({ children }) => {
     );
 
     if (userAuthorized !== true) {
-        return <Navigate to='/' />
+        return <Navigate to='/prometheus-x-course-task/' />
     }
 
     return children;

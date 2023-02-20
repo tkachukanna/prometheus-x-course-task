@@ -19,7 +19,7 @@ export const Navbar = () => {
         <nav className="menu">
             <ul className="menu__list">
                 <li className="menu__cart">
-                    <Link to="/cart">
+                    <Link to="/prometheus-x-course-task/cart">
                         <img src={cart} alt="cart" />
                     </Link>
                 </li>
@@ -28,7 +28,7 @@ export const Navbar = () => {
                         onClick={() => {
                             LocalStorageService.remove('username');
                             LocalStorageService.set('userauthorized', false);
-                            navigate("/");
+                            navigate("/prometheus-x-course-task");
                         }}
                     >
                         Sign-Out

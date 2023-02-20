@@ -52,7 +52,7 @@ export const SigninForm = () => {
                     type="submit"
                     onClick={() => {
                         authorizeUser();
-                        navigate("/books");
+                        navigate("/prometheus-x-course-task/books");
                     }}>Sign-In</button>
             </form>
         </section >

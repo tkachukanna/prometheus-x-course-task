@@ -26,19 +26,19 @@ export const App = () => {
       <SelectedBooksProvider value={selectedBooks}>
         <div className="wrapper">
           <Routes>
-            <Route path='/' element={<Layout />}>
+            <Route path='prometheus-x-course-task/' element={<Layout />}>
               <Route index element={<Signin />} />
-              <Route path='books' element={
+              <Route path='/prometheus-x-course-task/books' element={
                 <CheckAutho>
                   <BookList />
                 </CheckAutho>
               } />
-              <Route path='books/:id' element={
+              <Route path='/prometheus-x-course-task/books/:id' element={
                 <CheckAutho>
                   <SpecificBook />
                 </CheckAutho>
               } />
-              <Route path='cart' element={
+              <Route path='/prometheus-x-course-task/cart' element={
                 <CheckAutho>
                   <CartPage />
                 </CheckAutho>

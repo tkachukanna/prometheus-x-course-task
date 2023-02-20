@@ -1,0 +1,18 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.page__error {
+    font-size: 200px;
+    font-weight: 600;
+    color: #DCE5E2;
+}
+
+.page__text {
+    font-size: 22px;
+    font-weight: 500;
+}

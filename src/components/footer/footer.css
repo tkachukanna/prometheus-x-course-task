@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DCE5E2;
+    border-top: 1px solid #c9d5d1;
+    height: 50px;
+    width: 100%;
+}
+
+.footer__text {
+    font-size: 20px;
+}
+
+.footer__link {
+    color: black;
+    text-decoration: underline;
+}

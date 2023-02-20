@@ -1,0 +1,99 @@
+.signin {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 160px;
+}
+
+.signin__avatar {
+    width: 160px;
+    height: 160px;
+}
+
+.signin__form {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin__label {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.signin__input {
+    outline: 0;
+    width: 200px;
+    height: 40px;
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.signin__input::placeholder {
+    color: rgb(48, 48, 48);
+    font-size: 14px;
+    text-align: center;
+}
+
+.signin__button {
+    width: 200px;
+    height: 40px;
+    padding: 0;
+    background: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 100px;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.disabled {
+    width: 200px;
+    height: 40px;
+    padding: 0;
+    font-weight: 500;
+    border-radius: 100px;
+    margin-top: 20px;
+    background: #b3bbb8;
+    border: 1px solid #878f8c;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signin__button:hover {
+    background: #DCE5E2;
+    border: 1px solid black;
+    color: black;
+    transition: .5s ease-out;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 320px) {
+    .signin__form {
+        width: 100%;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+
+    .signin__input,
+    .signin__button {
+        width: 100%;
+    }
+
+    .avatar__img {
+        width: 200px;
+        height: 200px;
+    }
+}

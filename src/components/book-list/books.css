@@ -1,0 +1,123 @@
+.page-books {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.search__form {
+    display: flex;
+    align-items: center;
+}
+
+.search__input {
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-right: none;
+    border-radius: 54px 0px 0px 54px;
+    width: 300px;
+    height: 40px;
+    outline: 0;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.search__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-left: none;
+    border-radius: 0px 54px 54px 0px;
+    color: white;
+    height: 40px;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+.search__img img {
+    width: 30px;
+    height: 30px;
+}
+
+.search__options {
+    margin-left: 30px;
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.booklist {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 100px;
+}
+
+
+.book {
+    display: flex;
+    flex-direction: column;
+    background: #F8F9FA;
+    border-radius: 16px;
+    border: 1px solid #DCE5E2;
+}
+
+.book__cover {
+    width: 250px;
+    height: 328px;
+    margin: 5px auto;
+}
+
+.book__cover img {
+    width: 100%;
+    height: 100%;
+}
+
+.book__name {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 20px;
+}
+
+.book__author {
+    flex: 1 1 auto;
+    margin: 0 20px;
+}
+
+.book__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.book__price {
+    font-weight: 500;
+}
+
+.book__view {
+    width: 100px;
+    height: 35px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.book__view:hover {
+    background: #F8F9FA;
+    color: black;
+    border: 1px solid black;
+    transition: .5s ease-out;
+}
